@@ -55,6 +55,76 @@ body {padding-right: 0px !important;}
     opacity: 0;
 }
 
+.modal-subscribe {
+  padding: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.discord-button {
+  display: inline-block;
+  background-color: #7289DA;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.discord-button:hover, .discord-button:focus {
+  background-color: #5b6eae;
+  text-decoration: none;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  background: #333;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  background-color: #555;
+}
+
+.contact100-form-btn {
+  display: block;
+  width: 100%;
+  background-color: #B72C7A;
+  color: #fff;
+  padding: 12px 10px;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact100-form-btn:hover {
+  background-color: #531354;
+}
+
 .modal-dialog {
   display: -webkit-box;
   display: -webkit-flex;
@@ -112,7 +182,7 @@ input.input100 {
   top: -2px;
   left: -2px;
   pointer-events: none;
-  border: 2px solid #3a5dff;
+  border: 2px solid #B72C7A;
   border-radius: 25px;
 
   visibility: hidden;
@@ -361,9 +431,17 @@ input.input100 {
   background: linear-gradient(-45deg, #B72C7A, #531354, #191538);
 }
 
+.an{
+  color:white;
+}
+
+.an:hover{
+  color:white;
+}
 
 a{
   color: #B72C7A;
+  font-weight: 600;
 }
 
 a:hover{
